@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: demo.goharbor.io/library/samples/spring-petclinic
+  repository: kix.ocir.io/axyrtcc8rtso/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v1.0.14
+  tag: v1.0.18
 
 imagePullSecrets: []
 nameOverride: "spring-petclinic"
